@@ -1,0 +1,22 @@
+.local {
+    background-image: linear-gradient(red, blue);
+
+    .container {
+        display: flex;
+        padding: 100px 0;
+        gap: 40px;
+
+        img {
+            max-width: 50%;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+    }
+
+    &__text {
+
+    }
+}
